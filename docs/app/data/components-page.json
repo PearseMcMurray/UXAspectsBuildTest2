@@ -1,0 +1,818 @@
+{
+    "title": "Components",
+    "categories": [
+        {
+            "title": "Buttons",
+            "link": "buttons",
+            "sections": [
+                {
+                    "title": "Grouped Buttons",
+                    "component": "ComponentsGroupedButtonsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Toggle Buttons",
+                    "component": "ComponentsToggleButtonsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Floating Action Button",
+                    "component": "ComponentsFloatingActionButtonNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Pagination",
+                    "component": "ComponentsPaginationNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Single Toggle Button",
+                    "component": "ComponentsSingleToggleButtonNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Checkbox Buttons",
+                    "component": "ComponentsCheckboxButtonsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Radio Buttons",
+                    "component": "ComponentsRadioButtonsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Dropdown",
+                    "component": "ComponentsDropdownNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Thumbnail",
+                    "component": "ComponentsThumbnailNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Component List",
+            "link": "component-list",
+            "sections": [
+                {
+                    "title": "Component List",
+                    "component": "ComponentsComponentListNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Contacts",
+            "link": "contacts",
+            "sections": [
+                {
+                    "title": "Contacts",
+                    "component": "ComponentsContactsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Contacts Overflow",
+                    "component": "ComponentsContactsOverflowNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Date & Time Pickers",
+            "link": "date-time-picker",
+            "sections": [
+                {
+                    "title": "Date Picker",
+                    "component": "ComponentsDatePickerNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Integrated Date Picker",
+                    "component": "ComponentsIntegratedDatePickerNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Date Range Picker",
+                    "component": "ComponentsDateRangePickerNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Time Picker",
+                    "component": "ComponentsTimePickerNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Draggable Cards",
+            "link": "draggable-cards",
+            "sections": [
+                {
+                    "title": "Draggable Cards",
+                    "component": "ComponentsDraggableCardsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Draggable Cards - List View Example",
+                    "component": "ComponentsDraggableCardsListViewNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Draggable Panels",
+            "link": "draggable-panels",
+            "sections": [
+                {
+                    "title": "Draggable Panels",
+                    "component": "ComponentsDraggablePanelsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Draggable Panels with Different Views",
+                    "component": "ComponentsDraggablePanelsViewsNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Facets",
+            "link": "facets",
+            "sections": [
+                {
+                    "title": "Facets",
+                    "component": "ComponentsFacetsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Dynamic Facets",
+                    "component": "ComponentsDynamicFacetsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Custom Facets",
+                    "component": "ComponentsCustomFacetsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Line Chart Example with Facet Panel",
+                    "component": "ComponentsFacetLineChartNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Programmatic Selection",
+                    "component": "ComponentsProgrammaticSelectionNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "File Upload",
+            "link": "file-upload",
+            "sections": [
+                {
+                    "title": "File Upload",
+                    "component": "ComponentsFileUploadNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Flippable Cards",
+            "link": "flippable-cards",
+            "sections": [
+                {
+                    "title": "Flippable Cards",
+                    "component": "ComponentsFlippableCardsNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Grid",
+            "link": "grid",
+            "sections": [
+                {
+                    "title": "Grid",
+                    "component": "ComponentsGridNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Help Center",
+            "link": "help-center",
+            "sections": [
+                {
+                    "title": "Help Center",
+                    "component": "ComponentsHelpCenterNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Hierarchy Bar",
+            "link": "hierarchy-bar",
+            "sections": [
+                {
+                    "title": "Hierarchy Bar",
+                    "component": "ComponentsHierarchyBarNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Input Controls",
+            "link": "input-controls",
+            "sections": [
+                {
+                    "title": "Checkbox",
+                    "component": "ComponentsCheckboxComponent",
+                    "version": "Angular"
+                },
+                {
+                    "title": "Checkbox (Angular 1)",
+                    "component": "ComponentsCheckboxNg1Component",
+                    "version": "AngularJS",
+                    "deprecated": true
+                },
+                {
+                    "title": "Custom Dropdown",
+                    "component": "ComponentsCustomDropdownNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Expanding Text Area",
+                    "component": "ComponentsExpandingTextAreaNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Toggle Switch",
+                    "component": "ComponentsToggleSwitchComponent",
+                    "version": "Angular"
+                },
+                {
+                    "title": "Toggle Switch (Angular 1)",
+                    "component": "ComponentsToggleSwitchNg1Component",
+                    "version": "AngularJS",
+                    "deprecated": true
+                },
+                {
+                    "title": "Number Picker",
+                    "component": "ComponentsNumberPickerNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Inline Dropdown",
+                    "component": "ComponentsInlineDropdownNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Input Expand",
+                    "component": "ComponentsInputExpandNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Input Mask",
+                    "component": "ComponentsInputMaskNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Radio Button",
+                    "component": "ComponentsRadioButtonNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Tags",
+                    "component": "ComponentsTagsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Sliders",
+                    "component": "ComponentsSlidersNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Sliders with Charts",
+                    "component": "ComponentsSliderChartsNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Keyboard",
+            "link": "keyboard",
+            "sections": [
+                {
+                    "title": "Hotkeys",
+                    "component": "ComponentsHotkeysNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Keyboard Service",
+                    "component": "ComponentsKeyboardServiceNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Modals",
+            "link": "modals",
+            "sections": [
+                {
+                    "title": "Modal",
+                    "component": "ComponentsModalNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Square Modal",
+                    "component": "ComponentsSquareModalNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Marquee Modal",
+                    "component": "ComponentsMarqueeModalNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Side Modal",
+                    "component": "ComponentsSideModalNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Notifications",
+            "link": "notifications",
+            "sections": [
+                {
+                    "title": "Notifications",
+                    "component": "ComponentsNotificationsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Notification List",
+                    "component": "ComponentsNotificationListNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Notification Dropdown",
+                    "component": "ComponentsNotificationDropdownNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Alert Styles",
+                    "component": "ComponentsAlertStylesNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Dismissable Styles",
+                    "component": "ComponentsDismissableStylesNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Panels",
+            "link": "panels",
+            "sections": [
+                {
+                    "title": "Collapsible Panels",
+                    "component": "ComponentsCollapsiblePanelsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Item Display Panel",
+                    "component": "ComponentsItemDisplayPanelNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Item Display Panel Service",
+                    "component": "ComponentsItemDisplayPanelServiceNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Modal Inset Panel",
+                    "component": "ComponentsModalInsetPanelNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Side Inset Panel",
+                    "component": "ComponentsSideInsetPanelNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Popover",
+            "link": "popover",
+            "sections": [
+                {
+                    "title": "Popover",
+                    "component": "ComponentsPopoverNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Progress",
+            "link": "progress",
+            "sections": [
+                {
+                    "title": "Progress Bar",
+                    "component": "ComponentsProgressBarNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Scrollbar",
+            "link": "scrollbar",
+            "sections": [
+                {
+                    "title": "Custom Scrollbar",
+                    "component": "ComponentsCustomScrollbarNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Infinite Scroll",
+                    "component": "ComponentsInfiniteScrollNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Infinite Scroll with Load More Button",
+                    "component": "ComponentsInfiniteScrollLoadMoreNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Search",
+            "link": "search",
+            "sections": [
+                {
+                    "title": "Search Builder",
+                    "component": "ComponentsSearchBuilderNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Search History",
+                    "component": "ComponentsSearchHistoryNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Search Toolbar",
+                    "component": "ComponentsSearchToolbarNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Splitter",
+            "link": "splitter",
+            "sections": [
+                {
+                    "title": "Splitter",
+                    "component": "ComponentsSplitterNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Nested Splitter",
+                    "component": "ComponentsNestedSplitterNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Layout Switching Splitter",
+                    "component": "ComponentsLayoutSwitchingSplitterNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Side Inset Panel Splitter",
+                    "component": "ComponentsSideInsetPanelSplitterNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Tables",
+            "link": "tables",
+            "sections": [
+                {
+                    "title": "Detail Row Responsive Table",
+                    "component": "ComponentsDetailRowResponsiveNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Detail Row Header",
+                    "component": "ComponentsDetailRowHeaderNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Filters",
+                    "component": "ComponentsFiltersNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Dynamic Filters",
+                    "component": "ComponentsDynamicFiltersNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Indices",
+                    "component": "ComponentsIndicesNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Grouping",
+                    "component": "ComponentsGroupingNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Layout Switching",
+                    "component": "ComponentsLayoutSwitchingNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Fixed Header Table",
+                    "component": "ComponentsFixedHeaderTableNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "List Hover Actions",
+                    "component": "ComponentsListHoverActionsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Hover Actions",
+                    "component": "ComponentsHoverActionsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Preview Pane",
+                    "component": "ComponentsPreviewPaneNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Preview Pane Window",
+                    "component": "ComponentsPreviewPaneWindowNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Reorderable Table",
+                    "component": "ComponentsReorderableTableNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Multiple Selection Actions",
+                    "component": "ComponentsMultipleSelectActionsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Traditional Multiple Selection Actions",
+                    "component": "ComponentsTraditionalMultipleSelectActionsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Multiple Selection by Row",
+                    "component": "ComponentsMultipleSelectionRowNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Sorting",
+                    "component": "ComponentsSortingNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Sort Direction Toggle",
+                    "component": "ComponentsSortDirectionToggleNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Single Column Sorting",
+                    "component": "ComponentsSingleColumnSortingNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Multiple Column Sorting",
+                    "component": "ComponentsMultipleColumnSortingNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Column Visibility",
+                    "component": "ComponentsColumnVisibilityNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Custom Responsive Table",
+                    "component": "ComponentsCustomResponsiveTableNg1Component",
+                    "version": "AngularJS"  
+                }
+            ]
+        },
+		{
+			"title": "Select",
+            "link": "select",
+            "sections": [
+                {
+                    "title": "Select",
+                    "component": "ComponentsSelectNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Single Select Table",
+                    "component": "ComponentsSingleSelectTableNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Multiple Select Table",
+                    "component": "ComponentsMultipleSelectTableNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Tabs",
+            "link": "tabs",
+            "sections": [
+                {
+                    "title": "Tabs",
+                    "component": "ComponentsTabsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Detailed Tab Example",
+                    "component": "ComponentsDetailedTabExampleNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Stacked Tabs",
+                    "component": "ComponentsStackedTabsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Card Tabs",
+                    "component": "ComponentsCardTabsNg1Component",
+                    "version": "AngularJS"
+                }              
+            ]
+        },
+        {
+            "title": "Timeline",
+            "link": "timeline",
+            "sections": [
+                {
+                    "title": "Timeline",
+                    "component": "ComponentsTimelineNg1Component",
+                    "version": "AngularJS"
+                }            
+            ]
+        },
+        {
+            "title": "Tooltips",
+            "link": "tooltips",
+            "sections": [
+                {
+                    "title": "Tooltips",
+                    "component": "ComponentsTooltipsNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Overflow Tooltip",
+                    "component": "ComponentsOverflowTooltipNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Single Line Overflow Tooltip",
+                    "component": "ComponentsSingleLineOverflowTooltipNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Static Tooltips",
+                    "component": "ComponentsStaticTooltipNg1Component",
+                    "version": "AngularJS"
+                }              
+            ]
+        },
+        {
+            "title": "Tree View",
+            "link": "tree-view",
+            "sections": [
+                {
+                    "title": "Tree View",
+                    "component": "ComponentsTreeViewNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Tree View with Companion View",
+                    "component": "ComponentsTreeViewCompanionViewNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Tree Grid",
+                    "component": "ComponentsTreeGridNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Tree Grid Asynchronous Loading",
+                    "component": "ComponentsTreeGridAsynchronousLoadingNg1Component",
+                    "version": "AngularJS"
+                }            
+            ]
+        },
+        {
+            "title": "UI Router",
+            "link": "ui-router",
+            "sections": [
+                {
+                    "title": "UI Router",
+                    "component": "ComponentsUiRouterNg1Component",
+                    "version": "AngularJS"
+                }            
+            ]
+        },
+        {
+            "title": "Utilities",
+            "link": "utilities",
+            "sections": [
+                {
+                    "title": "Color Service",
+                    "component": "ComponentsColorServiceNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Force Focus",
+                    "component": "ComponentsForceFocusNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Focus On Show",
+                    "component": "ComponentsFocusOnShowNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Expanding Content",
+                    "component": "ComponentsExpandingContentNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "PDF Service",
+                    "component": "ComponentsPdfServiceNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Safe Timeout",
+                    "component": "ComponentsSafeTimeoutNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Safe Interval",
+                    "component": "ComponentsSafeIntervalNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Time Ago Service",
+                    "component": "ComponentsTimeAgoServiceNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "List Item Filter",
+                    "component": "ComponentsListItemFilterNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Window Communication Service",
+                    "component": "ComponentsWindowCommunicationServiceNg1Component",
+                    "version": "AngularJS"
+                }            
+            ]
+        },
+        {
+            "title": "Wizard",
+            "link": "wizard",
+            "sections": [
+                {
+                    "title": "Wizard",
+                    "component": "ComponentsWizardNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Wizard with Validation",
+                    "component": "ComponentsWizardValidationNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Vertical Wizard",
+                    "component": "ComponentsVerticalWizardNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Marquee Wizard",
+                    "component": "ComponentsMarqueeWizardNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        }
+    ]
+}

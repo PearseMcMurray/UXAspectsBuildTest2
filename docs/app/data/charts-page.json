@@ -1,0 +1,176 @@
+{
+    "title": "Charts",
+    "categories": [
+        {
+            "title": "Bar Charts",
+            "link": "bar-charts",
+            "sections": [
+                {
+                    "title": "Bar Chart",
+                    "component": "ChartsBarChartNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Horizontal Bar Chart",
+                    "component": "ChartsHorizontalBarChartNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Stacked Bar Chart",
+                    "component": "ChartsStackedBarChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Peity Charts",
+            "link": "peity-charts",
+            "sections": [
+                {
+                    "title": "Peity Charts",
+                    "component": "ChartsPeityChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Donut Charts",
+            "link": "donut-charts",
+            "sections": [
+                {
+                    "title": "Donut Chart",
+                    "component": "ChartsDonutChartNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Nested Donut Chart",
+                    "component": "ChartsNestedDonutChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Flot Options",
+            "link": "flot-options",
+            "sections": [
+                {
+                    "title": "Flot Options",
+                    "component": "ChartsFlotOptionsNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Line Charts",
+            "link": "line-chart",
+            "sections": [
+                {
+                    "title": "Line Chart",
+                    "component": "ChartsLineChartNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Stacked Line Chart",
+                    "component": "ChartsStackedLineChartNg1Component",
+                    "version": "AngularJS"
+                },
+                {
+                    "title": "Multiple Axis Line Chart",
+                    "component": "ChartsMultipleAxisLineChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Live Chart",
+            "link": "live-chart",
+            "sections": [
+                {
+                    "title": "Live Chart",
+                    "component": "ChartsLiveChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Organization Chart",
+            "link": "organization-chart",
+            "sections": [
+                {
+                    "title": "Organization Chart",
+                    "component": "ChartsOrganizationChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Partition Map",
+            "link": "partition-map",
+            "sections": [
+                {
+                    "title": "Partition Map",
+                    "component": "ChartsPartitionMapNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Sankey Chart",
+            "link": "sankey-chart",
+            "sections": [
+                {
+                    "title": "Sankey Chart",
+                    "component": "ChartsSankeyChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Scrollable Chart",
+            "link": "scrollable-chart",
+            "sections": [
+                {
+                    "title": "Scrollable Chart",
+                    "component": "ChartsScrollableChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Social Chart",
+            "link": "social-chart",
+            "sections": [
+                {
+                    "title": "Social Chart",
+                    "component": "ChartsSocialChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Spark Charts",
+            "link": "spark-charts",
+            "sections": [
+                {
+                    "title": "Spark Charts",
+                    "component": "ChartsSparkChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        },
+        {
+            "title": "Timeline Chart",
+            "link": "timeline-chart",
+            "sections": [
+                {
+                    "title": "Timeline Charts",
+                    "component": "ChartsTimelineChartNg1Component",
+                    "version": "AngularJS"
+                }
+            ]
+        }
+
+            
+
+    ]
+}

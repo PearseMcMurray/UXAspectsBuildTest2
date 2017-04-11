@@ -1,0 +1,18 @@
+{
+    "columns": [{
+        "title": "About",
+        "links": [{
+            "title": "Currently v1.0.0",
+            "link": "/landing"
+        }, {
+            "title": "View Changes Log",
+            "link": "/changelog"
+        }]
+    }],
+    "logo": "assets/img/UX-Aspects-Logo.png",
+    "copyright": "Hewlett Packard Enterprise Development LP",
+    "feedback": {
+        "title": "Feedback",
+        "link": "http://github.com"
+    }
+}
