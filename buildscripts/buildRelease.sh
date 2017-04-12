@@ -107,6 +107,17 @@ cp -p -r ux-aspects-hpe-master/fonts $WORKSPACE/src
 cp -p -r ux-aspects-hpe-master/img $WORKSPACE/src
 cp -p -r ux-aspects-hpe-master/styles $WORKSPACE/src
 
+# Bump up the version in the HPE bower.json
+sed -i -e s/"\"version\": \"[0-9]\.[0-9]\.[0-9].*\","/"\"version\": \"$NextVersion\","/ "ux-aspects-hpe-master/bower.json"
+HPEBowerVersion=`cat ux-aspects-hpe-master/bower.json | grep version`
+if [[ $HPEBowerVersion == *"$NextVersion"* ]]
+then
+   echo "Updated HPE bower.json with $NextVersion"
+else
+   echo "ERROR: HPE bower.json isn't updated with $NextVersion"
+   exit 1
+fi
+
 # Build using the HPE theme
 echo
 echo Building using the HPE theme
@@ -128,18 +139,24 @@ cd ..
 
 # Create HPE Bower package tarball for Artifactory
 cd $WORKSPACE
-HPEPackage="${bowerName}_$NextVersion.tar.gz"
+HPEPackage="${bowerName}-hpe_$NextVersion.tar.gz"
 echo
 echo Creating HPE Bower package $HPEPackage
-cdir=`pwd`
-rm -rf $HPEPackage
-mkdir dist/css
-cp -p dist/styles/ux-aspects.css dist/css
-tar czvf $HPEPackage dist/css dist/fonts dist/img dist/styles bower.json
+rm -f $WORKSPACE/HPEThemeFiles/Package/$HPEPackage
+mkdir -p $WORKSPACE/HPEThemeFiles/Package/dist/css
+cp -p dist/styles/*.css $WORKSPACE/HPEThemeFiles/Package/dist/css
+cp -p -r $WORKSPACE/KeppelThemeFiles/fonts $WORKSPACE/HPEThemeFiles/Package/dist
+cp -p -r $WORKSPACE/KeppelThemeFiles/img $WORKSPACE/HPEThemeFiles/Package/dist
+cp -p -r $WORKSPACE/HPEThemeFiles/ux-aspects-hpe-master/fonts $WORKSPACE/HPEThemeFiles/Package/dist
+cp -p -r $WORKSPACE/HPEThemeFiles/ux-aspects-hpe-master/img $WORKSPACE/HPEThemeFiles/Package/dist
+cp -p -r $WORKSPACE/HPEThemeFiles/ux-aspects-hpe-master/styles $WORKSPACE/HPEThemeFiles/Package/dist
+cp -p -r $WORKSPACE/HPEThemeFiles/ux-aspects-hpe-master/bower.json $WORKSPACE/HPEThemeFiles/Package
+cd $WORKSPACE/HPEThemeFiles/Package
+tar czvf $HPEPackage dist bower.json
 if [ "$?" -eq 0 ]
 then
     echo "Package $HPEPackage was Successfully created"
-    ls -la "$cdir/$HPEPackage"
+    ls -la "$WORKSPACE/HPEThemeFiles/Package/$HPEPackage"
 else
     echo "Error: Creating package $HPEPackage"
 fi
@@ -148,9 +165,8 @@ fi
 echo
 echo Uploading HPE-themed package to Artifactory
 cd $WORKSPACE
-echo "curl -XPUT $PrivateArtifactoryURL/$HPEPackage -T $cdir/$HPEPackage"
-curl -u $PrivateArtifactoryCredentials -XPUT $PrivateArtifactoryURL/$HPEPackage -T $cdir/$HPEPackage
-rm -rf $HPEPackage
+echo "curl -XPUT $PrivateArtifactoryURL/$HPEPackage -T $WORKSPACE/HPEThemeFiles/Package/$HPEPackage"
+curl -u $PrivateArtifactoryCredentials -XPUT $PrivateArtifactoryURL/$HPEPackage -T $WORKSPACE/HPEThemeFiles/Package/$HPEPackage
 
 # Remove the HPE theme files
 echo
@@ -185,46 +201,37 @@ cd ..
 echo
 echo Creating the branch $NextVersion-gh-pages-test
 cd $WORKSPACE
-git checkout docs/app/data/footer-navigation.json
-git checkout docs/app/data/landing-page.json
-git add package.json
-git stash
+mkdir clone
+cd clone
+git clone git@github.com:UXAspects/UXAspects.git
+cd UXAspects
 git checkout gh-pages
 git checkout -b $NextVersion-gh-pages-test
 git push origin $NextVersion-gh-pages-test
 
 # Delete files which are not to be added to the branch
-echo
-echo Deleting files which are not to be added to the branch
 rm -rf assets/ docs/
 rm -f *.css *.html *.js *.log
 
 # Extract the files from the Keppel documentation archive, both to this folder and to a $NextVersion sub-directory.
-echo
-echo Extracting the files from the Keppel documentation archive
-tar xvf $NextVersion-docs-gh-pages-Keppel.tar.gz
+tar xvf $WORKSPACE/$NextVersion-docs-gh-pages-Keppel.tar.gz
 if [ -d "$NextVersion" ]; then
     echo "Folder $NextVersion exists... deleting it!"
     rm -rf $NextVersion
 fi
 mkdir $NextVersion
 cd $NextVersion
-tar xvf ../$NextVersion-docs-gh-pages-Keppel.tar.gz
+tar xvf $WORKSPACE/$NextVersion-docs-gh-pages-Keppel.tar.gz
 cd ..
 
-# Push the required files to the branch
-echo
-echo Pushing the required files to the branch
 git add $NextVersion/ assets/ docs/ *.css *.html *.js
 git commit -a -m "Committing documentation changes for $NextVersion-gh-pages-test. Latest commit ID is $latestCommitID."
 git push origin $NextVersion-gh-pages-test
 
 # Return to the develop branch and retrieve the stashed files
-echo
-echo Returning to the develop branch
 cd $WORKSPACE
-git checkout develop
-git stash pop
+git checkout docs/app/data/footer-navigation.json
+git checkout docs/app/data/landing-page.json
 
 # Create the new branch for the Keppel bower package
 echo
@@ -239,6 +246,7 @@ rm -rf docs-gh-pages-HPE-$NextVersion/
 rm -rf docs-gh-pages-Keppel-$NextVersion/
 rm -rf HPEThemeFiles/
 rm -rf KeppelThemeFiles/
+rm -rf clone
 rm -f *.gz
 
 # Push the changes
